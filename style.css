@@ -1,0 +1,153 @@
+body, html{
+    height: 100%;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+.image
+{
+    width: 100%;
+    height: 100%;
+    border: none;
+    left: 0;
+    position:absolute;
+    top: 0;
+
+}
+.bg-text
+{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.social-icon
+{
+    display: flex;
+    height: 95%;
+    align-items: flex-end;
+}
+.social-icon a
+{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    margin: 5px 5px 5px 5px;
+    
+    
+}
+
+.text-1
+{
+    margin-top: 100px;
+}
+
+.p1
+{
+    margin-left: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.p2
+{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.circle
+{
+    background: #DB535A;
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 50% 50% 50% 50%;
+    
+}
+.layout-1 img
+{
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+
+.row-1
+{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-1
+{
+    border: 2px solid gray;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    width: 150px;
+    margin: auto;
+}
+.button-1 a
+{
+    text-decoration: none;
+    color: gray;
+}
+
+.button-2
+{
+    border: 2px solid #DB535A;
+    background-color: #DB535A;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    width: 150px;
+}
+.button-2 a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.layout-2
+{
+    display: flex;
+    
+}
+ .layout-2 > div
+{
+    margin: 20px;
+    
+} 
+.layout-3
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+
+.img-3 img
+{
+    width: 300px;
+}
+
+.layout-4
+{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
