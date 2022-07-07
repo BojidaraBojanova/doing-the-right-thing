@@ -1,4 +1,4 @@
-# doing-the-right-thing
+
 <h1>Website Template</h1>
 
 <h2>App Demo</h2>
