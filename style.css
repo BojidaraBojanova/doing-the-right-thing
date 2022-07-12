@@ -32,22 +32,27 @@ header
     display: flex;
     width: 98%;
 }
-.logo
-{
-    color: gray;
-}
-.menu
+
+.logo-menu
 {
     display: flex;
-    width: 100%;
-    align-items: flex-end;
-    justify-content: flex-end;
+    margin-left: 3rem;
 }
-.menu i
+.logo-menu a
+{
+    color: grey;
+    text-decoration: none;
+}
+.logo-menu i
 {
     color: white;
+    cursor: pointer;
+    margin-left: 82rem;
     font-size: 36px;
+    
+
 }
+
 .bg-text
 {
     color: white;
@@ -76,10 +81,13 @@ header
     
     
 }
-
+.section2
+{
+    margin-left: 4rem;
+}
 .text-1
 {
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 .p1
@@ -124,6 +132,12 @@ header
     opacity: 1;
     transition: 0.3s;
 }
+.layout-1 img
+{
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+}
 .layout-1 img:hover
 {
     opacity: 0.6;
@@ -133,9 +147,12 @@ header
 
 .row-1
 {
-    margin-top: 20px;
+    /* margin-top: 20px;
     display: flex;
     align-items: center;
+    justify-content: center; */
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     
 }
@@ -145,7 +162,7 @@ header
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} 
 
 
 
@@ -160,6 +177,7 @@ header
     margin: 20px;
     
 } 
+
 .layout-3
 {
     display: flex;
@@ -184,6 +202,11 @@ header
     color:black; 
     margin-left: 20px;
 }
+.section4
+{
+    margin-left: 4rem;
+}
+
 .layout-5
 {
     width: 90rem;
@@ -232,6 +255,20 @@ header
     padding: 0 4px;
    
 }
+.section6
+{
+    margin-left: 4rem;
+}
+.section7
+{
+    margin-left: 4rem;
+}
+.section8
+{
+    margin-top: 12rem;
+    margin-left: 4rem;
+    
+}
 .undImg button
 {
     margin-left: 7rem;
@@ -273,6 +310,26 @@ input[type=text]
     border: none;
     width: 428px;
 }
+.address
+{
+    margin-top: 1rem;
+}
+.phone
+{
+    margin-top: 1rem;
+}
+.name
+{
+    margin-top: 1rem;
+}
+.date
+{
+    margin-top: 2rem;
+}
+.message
+{
+    margin-top: 2rem;
+}
 input[type=date]
 {
     width: 1300px;
@@ -280,6 +337,7 @@ input[type=date]
     margin-left: 10px;
     background-color: #f1f1f1;
     border: none;
+    
 
 }
 textarea
@@ -313,8 +371,9 @@ textarea
 }
 .btn-center
 {
-    display: flex;
-    justify-content: center;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 10rem;
 }
 .button-1
 {
@@ -423,14 +482,6 @@ footer
 
     }
 
-    .logo 
-    {
-        font-size: 3rem;
-    }
-    .menu i
-    {
-        font-size: 3rem;
-    }
     
     
     .image
@@ -445,6 +496,7 @@ footer
         left: 0;
         transform: translate(20%, 20%);
         font-size: 5rem;
+        
     }
     .social-icon
     {
@@ -485,17 +537,18 @@ footer
     .row-1
     {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
       
 
     }
-    .row-2
+    /* .row-2
     {
         display: flex;
         flex-direction: column;
         
 
-    } 
+    }  */
     .l1-img 
     {
         width: 95%;
@@ -526,6 +579,12 @@ footer
         width: 20rem;
         height: 5rem;
         font-size: 24px;
+    }
+    .layout-3
+    {
+        background-color: #f1f1f1;
+        height: 40rem;
+
     }
     .img-3
     {
@@ -644,14 +703,8 @@ footer
     {
         width: 92.5rem;;
     }
-    .logo
-    {
-        font-size: 1rem;
-    }
-    .menu
-    {
-        font-size: 1rem;
-    }
+    
+    
     .image
     {
         width: 94.9rem;
@@ -663,19 +716,22 @@ footer
         transform: translate(-50%, -50%);
         font-size: 2rem;
     }
+    .social-icon
+    {
+        margin-left: 4rem;
+        
+    }
     .layout-1
     {
         display: flex;
         justify-content: center;
         width: 90rem;
         
-        
     }
     .layout-1 img
     {
-        width: 300px;
-        height: 300px;
-        margin: 5px;
+        width: 100%;
+        height: 100%;
         opacity: 1;
         transition: 0.3s;
     }
@@ -706,6 +762,7 @@ footer
        display: flex;
        justify-content: center;
        width: 20rem;
+       height: 20rem;
         
     }
     .circle
@@ -741,6 +798,7 @@ footer
     .social-icon i
     {
         font-size: 20px;
+        padding: 0.5rem;
     }
     .p1
     {
@@ -764,7 +822,6 @@ footer
         font-size: 16px;
         display: flex;
         justify-content: center;
-        margin-left: 15rem;
         
     }
     .btn-getstarted
@@ -801,7 +858,7 @@ footer
     .layout-3
     {
         
-        width: 88rem;
+        width: 80rem;
     }
     .p3
     {
@@ -891,6 +948,5 @@ footer
         font-size: 16px;
     }
     
-
 }
   
