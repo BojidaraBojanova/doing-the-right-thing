@@ -33,7 +33,7 @@ header i
 {
     display: flex;
     justify-content: space-between;
-    padding: 2vw 4vw 2vw 4vw;
+    padding: 2rem 4rem 2rem 4rem;
     
 }
 
@@ -43,42 +43,41 @@ header i
     justify-content: center;
     align-items: center;
     height: 86vh;
-    width: 98.5vw; 
 }
 .title h1
 {
     color:white;
     text-align: center;
-    font-size: 7vw;
+    font-size: 5rem;
 
 }
 .social-icon
 {
     display: flex;
-    align-items: flex-end;
     color: white;
-    font-size: 3vh;
-    padding: 4vw;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem; 
 }
 .social-icon i
 {
-    padding: 1vw;
+    padding: 1rem;
 }
 
 .text-1 h5
 {
     color: grey;
-    padding: 4vw 4vw 2vw 4vw;
+    padding: 4rem 4rem 2rem 4rem;
 
 }
 .text-1 h2
 {
-    padding: 0 2vw 0vw 4vw; 
+    padding: 0 2rem 0vw 4rem; 
     text-align: left;
 }
 .text-1 p
 {
-    padding: 4vw 4vw 2vw 4vw;
+    padding: 4rem 4rem 2rem 4rem;
 }
 .circle
 {
@@ -86,7 +85,7 @@ header i
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
-    margin: 0 4vw 4vw 4vw;
+    margin: 0 4rem 4rem 4rem;
 
 }
 .circle2
@@ -95,21 +94,17 @@ header i
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
-    margin: 10vw 4vw 4vw 1vw;
+    margin: 6rem 4rem 4rem 1rem;
 
 }
-.image-galery
-{
-    padding: 4vw;
-}
+
 .l1-img
 {
     width: 20rem;
     height: 20rem;
-    padding: 0.5vw;
+    padding: 0.5rem;
     opacity: 1;
     transition: 0.3s;
-
 }
 .l1-img img
 {
@@ -152,7 +147,7 @@ header i
 {
     display: flex;
     justify-content: center;
-    padding: 1vw;
+    padding: 1rem;
 }
 .text-2 h2
 {
@@ -174,49 +169,65 @@ header i
 }
 .btn-padding
 {
-    padding: 0 4vw 2vw 4vw;
     display: flex;
+    justify-content: space-around;
+    width: 30rem;
 }
-.btn-pink
-{
-    padding-right: 4vw;
-}
+
 .img-3
 {
-    width: 20rem;
+    width: auto;
     height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .image-text
 {
+    margin: 2rem;
     display: flex;
-    padding: 4vw 5vw 4vw 20vw;
+    justify-content: center;
+    align-items: center;
+    /* padding: 4vw 5vw 4vw 5vw; */
     background-color: #f1f1f1;
-    width: 75vw;
-    margin-left: 12vw;
-    margin-top: 2vw;
+    padding: 2rem;
+}
+.column-1
+{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .column-2 h2
 {
-    padding: 0 2vw 1vw 1vw;
+    /* padding: 0 2rem 1rem 1rem; */
+    display: flex;
+    align-items: center;
+    padding: 2rem;
 }
 .column-2 p
 {
-    padding: 0 2vw 1vw 1vw;
+    /* padding: 0 2rem 1rem 1rem; */
     color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
 }
 .arrow i
 {
     color: black;
-    font-size: 3vw;
+    font-size: 3rem;
     padding: 0 2vw 2vw 1vw;
 }
 .text-3 h2
 {
-    padding: 4vw 4vw 1vw 4vw;
+    padding: 4rem 4rem 1rem 4rem;
 }
 .text-3 p
 {
-    padding: 0 4vw 4vw 4vw;
+    padding: 0 4rem 4rem 4rem;
     color: grey;
 }
 .img-3 img
@@ -238,7 +249,7 @@ header i
 {
     box-shadow: 0 2vw 0vw 0 rgba(0, 0, 0, 0.0);
     transition: 0.3s;
-    padding: 0.5vw;
+    padding: 0.5rem;
 }
 .card:hover
 {
@@ -246,7 +257,7 @@ header i
 }
 .undImg
 {
-    padding: 1vw 0 0 0;
+    padding: 1rem 0 0 0;
 }
 .image-card
 {
@@ -280,40 +291,41 @@ header i
 
 .text-4 h3
 {
-    padding: 4vw 4vw 1vw 4vw;
+    padding: 4rem 4rem 1rem 4rem;
 }
 .text-4 h2
 {
-    padding: 1vw 4vw 1vw 4vw;
+    padding: 1rem 4rem 1rem 4rem;
 }
 .form
 {
-    padding: 2vw 4vw 2vw 4vw;
+    padding: 2rem 4rem 2rem 4rem;
 }
 input[type=text]
 {
-    padding: 1vw 1vw;
+    padding: 1rem 1rem;
     background-color: #f1f1f1;
     border: none;
     width: 25vw;
-    margin-right: 2vw;
+    margin-right: 2rem;
 }
 .Frow-1
 {
     display: flex;
     /* padding-left: 4vw; */
+    flex-direction: row;
 }
 
 input[type=date]
 {
     width: 79vw;
-    padding: 1vw;
+    padding: 1rem;
     background-color: #f1f1f1;
     border: none;
 }
 .Frow
 {
-    padding: 1.5vw 4vw 0 0 ;
+    padding: 1.5rem 4rem 0 0 ;
 } 
 textarea
 {
@@ -326,20 +338,18 @@ button[type=submit]
     background-color: #DB535A;
     border: none;
     color: white;
-    padding: 0.8vw 1vw 0.8vw 1vw;
-    width: 6vw;
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    width: 6rem;
     cursor: pointer;
     opacity: 1;
     transition: 0.3s;
+    margin-top: 1rem;
 }
 button[type=submit]:hover
 {
     opacity: 0.6;
 }
-.submit
-{
-    padding-top: 2vw;
-}
+
 footer
 {
     
@@ -347,5 +357,94 @@ footer
     background-color:#383838 ;
     color: white;
     text-align: center;
-    padding: 1vw;
+    padding: 1rem;
+}
+
+@media (max-width: 1100px) 
+{
+    
+    .image-text
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .arrow
+    {
+        padding-left: 8rem;
+    }
+    .circle2
+    {
+        margin-top: 2rem;
+        margin-left: 6rem;
+    }
+    .column-2 h2
+    {
+        padding-left: 8rem;
+    }
+    .column-2 p
+    {
+        padding: 1rem;
+        margin-left: 7rem;
+    }
+    .image-card {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        box-shadow: 0 2vw 0vw 0 rgb(0 0 0 / 0%);
+        transition: 0.3s;
+        padding: 0.5vw;
+    }
+    .card-img
+    {
+        width: 100%;
+    
+    }
+    .Frow-1
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .Frow
+    {
+        flex-direction: column;
+    }
+    input[type=text]
+    {
+        padding: 1rem 1rem;
+        background-color: #f1f1f1;
+        border: none;
+        width: auto;
+        margin-right: 2rem;
+    }
+    
+
+
+}
+@media (max-width: 450px) 
+{
+    .btn-padding
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 10rem;
+    }
+    .image-text
+    {
+        padding: 0;
+    }
+    .Frow-1
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .Frow
+    {
+        flex-direction: column;
+    }
+    
+    
 }
